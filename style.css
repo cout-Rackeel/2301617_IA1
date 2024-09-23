@@ -12,6 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    position: relative;
+}
+
 
 *{
     box-sizing: border-box;
@@ -155,7 +159,7 @@ html {
     padding: 0em 3em ;
     position: relative;
     background-size: cover;
-    background-image: url('../2301617_IA1/assets/images/bg.jpg');
+    background-image: url('../assets/images/bg.jpg');
     background-repeat: no-repeat;
     z-index: 1;
     color: var(--pri-clr-dark);
@@ -174,7 +178,7 @@ html {
     top: 5%;
     right: 0%;
     height:500px;
-    background-image: url('../2301617_IA1/assets/images/jesus_kneel-removebg.png');
+    background-image: url('../assets/images/jesus_kneel-removebg.png');
     background-repeat: no-repeat;
     width: 800px;
     height: 800px;
@@ -277,6 +281,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #contact-section{
@@ -305,4 +310,41 @@ html {
 .email{
     width: 75px;
     color: var(--pri-clr-light-blue);
+}
+
+.prof-cont{
+    display: flex;
+    width: 100%;
+    /* gap: 5em; */
+    justify-content: space-around;
+    padding: 1em 2.5em;
+}
+
+.text-sect{
+    width: 100%;
+    border-right: 1px solid lightgray;
+    padding: 0em 2em;
+}
+
+.resume-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0em 2em;
+    align-items: start;
+}
+
+.statement{
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 1em;
+}
+
+.details{
+    margin-top: 4px;
+    padding: 1em 0em;
+}
+
+.details > summary {
+   margin-bottom: 10px;
 }
