@@ -159,7 +159,7 @@ body{
     padding: 0em 3em ;
     position: relative;
     background-size: cover;
-    background-image: url('../assets/images/bg.jpg');
+    background-image: url('./assets/images/bg.jpg');
     background-repeat: no-repeat;
     z-index: 1;
     color: var(--pri-clr-dark);
@@ -178,7 +178,7 @@ body{
     top: 5%;
     right: 0%;
     height:500px;
-    background-image: url('../2301617_IA1/assets/images/jesus_kneel-removebg.png');
+    background-image: url('./assets/images/jesus_kneel-removebg.png');
     background-repeat: no-repeat;
     width: 800px;
     height: 800px;
